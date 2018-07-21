@@ -1,0 +1,107 @@
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images/dust_scratches.png");
+	color: #777;
+}
+
+/*
+container class adds dimensions and cencers
+*/
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+/*
+Header section | navigation bar
+*/
+header {
+	font-family: Georgia, Times, 'Times New Roman', serif;
+	background: #fff;
+	overflow: hidden;
+	border-bottom: 2px solid #ccc;
+}
+
+h1 {
+	margin: 0;
+	padding: 0 50px;
+	background: #4aaaa5;
+	float: left;
+	color: #fff;
+	line-height: 70px;
+}
+
+nav {
+	float: right;
+	line-height: 70px;
+}
+
+nav a {
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 20px;
+	color: #666;
+	line-height: normal;
+	padding: 0 15px;
+}
+
+nav a:first-child,
+nav a:nth-child(2) {
+	border-right: 1px solid #ccc;
+}
+
+/*
+Main content styles
+*/
+
+#main-content {
+	background: #fff;
+	padding: 25px 50px;
+	margin-top: 40px;
+	border: 1px solid #ddd;
+	font-family: Arial,'Helvetica Nue', Helvetica, sans-sefif;
+}
+
+#main-content h2 {
+	color: #4aaaa5;
+	border-bottom: 4px solid #ccc;
+	padding: 0 0 24px 0;
+}
+
+#main-content img {
+	float: left;
+	margin: 0 30px 30px 0;
+}
+
+#main-content p {
+	line-height: 1.5;
+}
+
+/*
+Footer
+*/
+
+footer {
+	background: #666666;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+	border-top: 8px solid #4aaaa5;
+}
+
+footer p {
+	text-align: center;
+	color: #ddd;
+	line-height: 10px;
+}
+
+
+
+
+
